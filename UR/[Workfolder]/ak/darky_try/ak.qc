@@ -9,7 +9,7 @@ $bodygroup "handguards" {
 	studio "akm_handguard.smd"
 	studio "romaniandong.smd"
 	studio "ak74m_handguard_new.smd"
-	studio "series_100_handguard.smd"
+	blank
 	studio "rpk74m_handguard.smd"
 	studio "aku_handguard-barrel-trunnion.smd"
 	studio "alpha_handguard.smd"
@@ -125,6 +125,12 @@ $bodygroup "mount" {
 	blank
 	studio "mount.smd"
 	studio "mount_laser.smd"
+}
+
+$bodygroup "adapter" {
+	blank
+	studio "series_100_adapter.smd"
+	studio "series_100_adapter_u.smd"
 }
 
 
