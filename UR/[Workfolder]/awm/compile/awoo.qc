@@ -215,6 +215,11 @@ $sequence "inspect_exit" {
 	fps 30
 	// snap
 }
+$sequence "inspect_exit_empty" {
+	"talonAnims\inspect_end_empty.smd"
+	fps 30
+	// snap
+}
 
 $bonemerge "ValveBiped.Bip01_Spine4"
 $bonemerge "ValveBiped.Bip01_L_Clavicle"

@@ -139,9 +139,12 @@ $sequence "fire" {
 	fadeout 0.03
 }
 
-$sequence "fix" "anims\fix.smd" {
+$sequence "fix" {
+	"anims\fix.smd"
+	"anims\fix_iron.smd"
 	fps 30
 	"ACT_VM_IDLE" 1
+	blend "sights" 0 1
 	snap
 }
 
@@ -183,6 +186,7 @@ $sequence "reload_empty_10mm" {
 
 $sequence "reload_drum" {
 	"anims\reload_drum.smd"
+	"anims\reload_drum_iron.smd"
 	fps 30
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
@@ -191,6 +195,7 @@ $sequence "reload_drum" {
 
 $sequence "reload_empty_drum" {
 	"anims\reload_empty_drum.smd"
+	"anims\reload_empty_drum_iron.smd"
 	fps 30
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
