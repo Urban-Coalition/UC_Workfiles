@@ -9,6 +9,8 @@ $bodygroup "slide" { // 1
 	studio "slide compact.smd"
 	studio "slide m45.smd"
 	studio "slide m45 custom.smd"
+    studio "slide custom.smd"
+    studio "slide compact custom.smd"
 }
 $bodygroup "shared" { // x
 	studio "shared.smd"
