@@ -1,45 +1,45 @@
-$modelname "weapons\arccw\c_ur_spas12.mdl"
+$modelname "weapons\arccw\c_ur_spas12_1.mdl"
  
 $bodygroup "studio" {
-	studio "receiver.smd"
+	studio "new_receiver.smd"
 }
 
 $bodygroup "1" {
-	studio "trigger_group.smd"
-	studio "trigger_group_comp.smd"
+	blank
+	blank
 }
 
 $bodygroup "2" {
-	studio "grip.smd"
-	studio "grip_comp.smd"
+	studio "new_back.smd"
+	blank
 }
 
 $bodygroup "3" {
-	studio "barrel_long.smd"
-	studio "barrel_short.smd"
-	studio "barrel_comp.smd"
+	studio "new_barrellong.smd"
+	studio "new_barrelshort.smd"
+	blank
 }
 
 $bodygroup "4" {
-	studio "tube_long.smd"
-	studio "tube_short.smd"
+	studio "new_tubelong.smd"
+	studio "new_tubeshort.smd"
 }
 
 $bodygroup "5" {
-	studio "handguard.smd"
-	studio "handguard_comp.smd"
+	studio "new_foreend.smd"
+	blank
 }
 
 $bodygroup "6" {
-	studio "forend_pump.smd"
-	studio "forend_pump_comp.smd"
+	blank
+	blank
 }
 
 $bodygroup "7" {
-	studio "stock_unfolded.smd"
+	studio "new_stockextended.smd"
 	studio "stock_unfolded_hook.smd"
 	studio "stock_solid.smd"
-	studio "stock_folded.smd"
+	studio "new_stockfolded.smd"
 	studio "stock_folded_comp.smd"
 	blank
 }
@@ -55,6 +55,7 @@ $bodygroup "8" {
 }
 
 $cdmaterials "models\weapons\arccw\ur_spas12"
+$cdmaterials "models\weapons\arccw\ur_spas12_new"
 $cdmaterials "models\weapons\arccw\ud_common"
 $cdmaterials "models\weapons\arccw\uc_shells\"
 
