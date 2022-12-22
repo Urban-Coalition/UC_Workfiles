@@ -10,7 +10,8 @@ $bodygroup "barrel"
 {
     studio "barrel_normal.smd"
     studio "barrel_m29.smd"
-    blank
+    studio "barrel_master.smd"
+    studio "barrel_fbi.smd"
 }
 
 // always make the speedloader last
