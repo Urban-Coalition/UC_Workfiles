@@ -64,8 +64,15 @@ $bodygroup "boolet" {
 	studio "boolet4drum.smd"
 }
 
+$bodygroup "railz" {
+	blank
+	studio "rail_sd.smd"
+	studio "rail_eod.smd"
+}
+
 $cdmaterials "models\weapons\arccw\ur_mp5NEW"
 $cdmaterials "models\weapons\arccw\ud_m16\scalerworks"
+$cdmaterials "models\weapons\arccw\ur_ak"
 $cdmaterials "models\weapons\arc9\ud_common"
 
 // $texturegroup "skinfamilies"
