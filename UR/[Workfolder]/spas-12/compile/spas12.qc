@@ -1,46 +1,23 @@
-$modelname "weapons\arccw\c_ur_spas12_1.mdl"
+$modelname "weapons\arccw\c_ur_spas12.mdl"
  
 $bodygroup "studio" {
-	studio "new_receiver.smd"
+	studio "newest_frame.smd"
 }
 
-$bodygroup "1" {
-	blank
-	blank
-}
-
-$bodygroup "2" {
-	studio "new_back.smd"
-	blank
-}
-
-$bodygroup "3" {
-	studio "new_barrellong.smd"
-	studio "new_barrelshort.smd"
-	blank
+$bodygroup "barrel" {
+	studio "newest_barrel_long.smd"
+	studio "newest_barrel_short.smd"
 }
 
 $bodygroup "4" {
-	studio "new_tubelong.smd"
-	studio "new_tubeshort.smd"
-}
-
-$bodygroup "5" {
-	studio "new_foreend.smd"
-	blank
-}
-
-$bodygroup "6" {
-	blank
-	blank
+	studio "newest_tube_long.smd"
+	studio "newest_tube_short.smd"
 }
 
 $bodygroup "7" {
-	studio "new_stockextended.smd"
-	studio "stock_unfolded_hook.smd"
-	studio "stock_solid.smd"
-	studio "new_stockfolded.smd"
-	studio "stock_folded_comp.smd"
+	studio "newest_stock_extended.smd"
+	studio "newest_stock_fixed.smd"
+	studio "newest_stock_folded.smd"
 	blank
 }
 
