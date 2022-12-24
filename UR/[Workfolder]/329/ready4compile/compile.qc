@@ -78,7 +78,7 @@ $sequence "trigger" {
     "anims/trigger_ads.smd"
 	blend "sights" 0 1
     fps 60
-    fadein 0.05
+    fadein 0.1
     fadeout 0.2
 }
 
@@ -141,7 +141,7 @@ $sequence "cocking" {
     "anims/cocking.smd"
     "anims/cocking.smd"
 	blend "sights" 0 1
-    fadein 0.05
+    fadein 0.1
     fadeout 0.2
     fps 60
 }
