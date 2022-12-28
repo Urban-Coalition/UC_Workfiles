@@ -30,8 +30,26 @@ $sequence "idle_armed" {
 	fps 30
 }
 
+$sequence "to_idle" {
+	"anims/to_idle.smd"
+	fps 30
+}
+
+$sequence "to_armed" {
+	"anims/to_armed.smd"
+	fps 30
+}
+
 $sequence "fire" {
 	"anims/fire.smd"
+	fps 30
+	snap
+}
+
+$sequence "cycle" {
+	"anims/cycle.smd"
+	fps 30
+	fadein 0.1
 }
 
 $bonemerge "ValveBiped.Bip01_Spine4"
