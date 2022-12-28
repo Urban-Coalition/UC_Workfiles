@@ -11,6 +11,7 @@ $origin -2.86272 -19.5794 -5.1228
 $cdmaterials "models\weapons\arccw\ud_870"
 $cdmaterials "models\weapons\arccw\ud_m16"
 $cdmaterials "models\weapons\arccw\ud_common"
+$cdmaterials "models\weapons\arccw\ud_m1014"
 $surfaceprop "weapon"
 $contents "solid"
 
@@ -48,6 +49,30 @@ $sequence "fire" {
 
 $sequence "cycle" {
 	"anims/cycle.smd"
+	fps 30
+	fadein 0.1
+}
+
+$sequence "sgreload_start_empty" {
+	"anims/sgreload_start_empty.smd"
+	fps 30
+	fadein 0.1
+}
+
+$sequence "sgreload_start" {
+	"anims/sgreload_start.smd"
+	fps 30
+	fadein 0.1
+}
+
+$sequence "sgreload_insert" {
+	"anims/sgreload_insert.smd"
+	fps 30
+	fadein 0.1
+}
+
+$sequence "sgreload_end" {
+	"anims/sgreload_end.smd"
 	fps 30
 	fadein 0.1
 }
