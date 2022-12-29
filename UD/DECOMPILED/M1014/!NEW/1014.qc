@@ -409,11 +409,3 @@ $bonemerge "ValveBiped.Bip01_R_Finger01"
 $bonemerge "ValveBiped.Bip01_R_Finger02"
 
 $collisionmodel "c_ud_m1014_physics.smd"
-{
-	$mass 5
-	$masscenter 19.36 -2.22 -5.43
-	$inertia 1
-	$damping 0
-	$rotdamping 0
-	$rootbone " "
-}
