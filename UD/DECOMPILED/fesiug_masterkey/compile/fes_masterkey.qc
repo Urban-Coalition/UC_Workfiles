@@ -56,25 +56,25 @@ $sequence "cycle" {
 $sequence "sgreload_start_empty" {
 	"anims/sgreload_start_empty.smd"
 	fps 30
-	fadein 0.1
+	snap
 }
 
 $sequence "sgreload_start" {
 	"anims/sgreload_start.smd"
 	fps 30
-	fadein 0.1
+	snap
 }
 
 $sequence "sgreload_insert" {
 	"anims/sgreload_insert.smd"
 	fps 30
-	fadein 0.1
+	snap
 }
 
 $sequence "sgreload_end" {
 	"anims/sgreload_end.smd"
 	fps 30
-	fadein 0.1
+	snap
 }
 
 $bonemerge "ValveBiped.Bip01_Spine4"
