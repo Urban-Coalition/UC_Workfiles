@@ -51,10 +51,11 @@ $cdmaterials "models\weapons\arccw\ud_common"
 
 $texturegroup "skinfamilies"
 {
-	{ "deagle" "deagle_plastic" "annihilator_slide"}
-	{ "deagle_black" "deagle_plastic" "annihilator_slide_black"}
-	{ "deagle_gold" "deagle_plastic" "annihilator_slide_gold"}
-	{ "deagle_chrome" "deagle_plastic" "annihilator_slide_chrome"}
+	{ "deagle"        "annihilator_slide"}
+	{ "deagle_black"  "annihilator_slide_black"}
+	{ "deagle_gold"   "annihilator_slide_gold"}
+	{ "deagle_chrome" "annihilator_slide_chrome"}
+	{ "sex"           "annihilator_slide_black" }
 }
 
 
@@ -73,27 +74,22 @@ $bbox 0 0 0 0 0 0
 $cbox 0 0 0 0 0 0
 
 $poseparameter "sights" 0 1 loop 0
+$poseparameter "light" 0 1 loop 0
 
 $sequence "idle"{
 	"anims\idle.smd" 
-	"anims\idle_iron.smd"
 	fps 60
 	"ACT_VM_IDLE" 1
- 	blend "sights" 0 1
 	loop
 	snap
-	node "Ready"
 }
 
 $sequence "idle_empty"{
 	"anims\idle_empty.smd" 
-	"anims\idle_iron_empty.smd"
 	fps 60
 	"ACT_VM_IDLE" 1
- 	blend "sights" 0 1
 	loop
 	snap
-	node "Ready"
 }
 
 $sequence "idle_jammed"{
@@ -102,51 +98,50 @@ $sequence "idle_jammed"{
 	"ACT_VM_IDLE" 1
 	loop
 	snap
-	node "Ready"
 }
 
 $sequence "fire_01" {
-	"anims\fire_01.smd"
-	"anims\fire_iron.smd"
+	"anims\fire_01.smd" "anims\firelight.smd"
+	"anims\fire_iron.smd" "anims\firelight.smd"
 	fps 60
 	"ACT_VM_PRIMARYATTACK" 1
+ 	blend "light" 0 1
  	blend "sights" 0 1
 	fadein 0.03
 	fadeout 0.03
-	{ event 5001 0 "1" }
 }
 
 $sequence "fire_02" {
-	"anims\fire_02.smd"
-	"anims\fire_iron.smd"
+	"anims\fire_02.smd" "anims\firelight.smd"
+	"anims\fire_iron.smd" "anims\firelight.smd"
 	fps 60
 	"ACT_VM_PRIMARYATTACK" 1
+ 	blend "light" 0 1
  	blend "sights" 0 1
 	fadein 0.03
 	fadeout 0.03
-	{ event 5001 0 "1" }
 }
 
 $sequence "fire_03" {
-	"anims\fire_03.smd"
-	"anims\fire_iron.smd"
+	"anims\fire_03.smd" "anims\firelight.smd"
+	"anims\fire_iron.smd" "anims\firelight.smd"
 	fps 60
 	"ACT_VM_PRIMARYATTACK" 1
+ 	blend "light" 0 1
  	blend "sights" 0 1
 	fadein 0.03
 	fadeout 0.03
-	{ event 5001 0 "1" }
 }
 
 $sequence "fire_empty" {
-	"anims\fire_empty.smd"
-	"anims\fire_iron_empty.smd"
+	"anims\fire_empty.smd" "anims\firelight_empty.smd"
+	"anims\fire_iron_empty.smd" "anims\firelight_empty.smd"
 	fps 60
 	"ACT_VM_PRIMARYATTACK" 1
+ 	blend "light" 0 1
  	blend "sights" 0 1
 	fadein 0.03
 	fadeout 0.03
-	{ event 5001 0 "1" }
 }
 
 $sequence "fire_jammed" {
@@ -155,13 +150,10 @@ $sequence "fire_jammed" {
 	"ACT_VM_PRIMARYATTACK" 1
 	fadein 0.03
 	fadeout 0.03
-	{ event 5001 0 "1" }
 }
 
 $sequence "ready" {
 	"anims\ready.smd"
-	"anims\ready_iron.smd"
- 	blend "sights" 0 1
 	fps 60
 	"ACT_VM_DRAW" 1
 	snap
@@ -169,8 +161,6 @@ $sequence "ready" {
 
 $sequence "reload" {
 	"anims\reload.smd"
-	"anims\reload_iron.smd"
-	blend "sights" 0 1
 	fps 60
 	"ACT_VM_RELOAD" 1
 	snap
@@ -178,8 +168,6 @@ $sequence "reload" {
 
 $sequence "reload_empty" {
 	"anims\reload_empty.smd"
-	"anims\reload_empty_iron.smd"
-	blend "sights" 0 1
 	fps 60
 	"ACT_VM_RELOAD" 1
 	snap
@@ -187,8 +175,6 @@ $sequence "reload_empty" {
 
 $sequence "reload_exte" {
 	"anims\reload_exte.smd"
-	"anims\reload_iron_exte.smd"
-	blend "sights" 0 1
 	fps 60
 	"ACT_VM_RELOAD" 1
 	snap
@@ -196,8 +182,6 @@ $sequence "reload_exte" {
 
 $sequence "reload_empty_exte" {
 	"anims\reload_empty_exte.smd"
-	"anims\reload_empty_iron_exte.smd"
-	blend "sights" 0 1
 	fps 60
 	"ACT_VM_RELOAD" 1
 	snap
@@ -225,8 +209,6 @@ $sequence "idle_inspect" {
 
 $sequence "exit_inspect" {
 	"anims\exit_inspect.smd"
-	"anims\exit_inspect_iron.smd"
-	blend "sights" 0 1
 	"ACT_VM_IDLE" 1
 	snap
 	fps 60
@@ -248,8 +230,6 @@ $sequence "idle_inspect_empty" {
 
 $sequence "exit_inspect_empty" {
 	"anims\exit_inspect_empty.smd"
-	"anims\exit_inspect_empty_iron.smd"
-	blend "sights" 0 1
 	"ACT_VM_IDLE" 1
 	snap
 	fps 60
