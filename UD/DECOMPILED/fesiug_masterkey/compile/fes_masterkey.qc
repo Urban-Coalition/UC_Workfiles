@@ -24,21 +24,25 @@ $collisionmodel "shotgun.smd"
 $sequence "idle" {
 	"anims/idle.smd"
 	fps 30
+	snap
 }
 
 $sequence "idle_armed" {
 	"anims/idle_armed.smd"
 	fps 30
+	snap
 }
 
 $sequence "to_idle" {
 	"anims/to_idle.smd"
 	fps 30
+	snap
 }
 
 $sequence "to_armed" {
 	"anims/to_armed.smd"
 	fps 30
+	snap
 }
 
 $sequence "fire" {
