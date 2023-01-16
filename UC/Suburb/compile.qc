@@ -1,4 +1,4 @@
-$modelname "suburb_1.mdl"
+$modelname "suburb/suburb_1.mdl"
 
 $bodygroup "rig"
 {
