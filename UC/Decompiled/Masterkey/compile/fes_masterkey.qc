@@ -68,14 +68,13 @@ $sequence "sgreload_start_empty" {
 $sequence "sgreload_start" {
 	"anims/sgreload_start.smd"
 	fadein 0.1
-	fadeout 0.1
+	fadeout 0
 	fps 30
 }
 
 $sequence "sgreload_insert" {
 	"anims/sgreload_insert.smd"
-	fadein 0.1
-	fadeout 0.1
+	snap
 	fps 30
 }
 
