@@ -15,6 +15,9 @@ $bodygroup "irons"
 {
 	studio "i_magpul_short.smd"
 	studio "i_magpul.smd"
+	blank
+	// studio "i_magpul_short_folded.smd"
+	// studio "i_magpul_folded.smd"
 }
 
 $bodygroup "handguard"
