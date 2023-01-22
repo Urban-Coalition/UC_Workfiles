@@ -3,6 +3,7 @@ $modelname "uc/att/supp_qhalfnelson.mdl"
 $bodygroup "main"
 {
 	studio "suppressor.smd"
+	studio "suppressor_long.smd"
 }
 
 $cdmaterials "uc/badger"
