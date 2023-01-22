@@ -1,4 +1,4 @@
-$modelname "weapons/uc/badger.mdl"
+$modelname "uc/badger.mdl"
 
 $bodygroup "main"
 {
@@ -29,8 +29,8 @@ $bodygroup "handguard"
 $bodygroup "mag"
 {
 	studio "mag.smd"
-	studio "127 mag.smd"
-	studio "drum mag.smd"
+	studio "mag_40.smd"
+	studio "mag_50.smd"
 }
 
 $bodygroup "rail"
@@ -45,7 +45,7 @@ $bodygroup "suppressor"
 	studio "suppressor.smd"
 }
 
-$cdmaterials "models/weapons/uc_badger"
+$cdmaterials "uc/badger"
 
 $attachment "1" "wpn" 0.00 -11.20 1.33 rotate 0 -90 90			// Muzzle
 $attachment "2" "wpn" -0.80 0.00 1.70 rotate -45 -180 90		// Shell
