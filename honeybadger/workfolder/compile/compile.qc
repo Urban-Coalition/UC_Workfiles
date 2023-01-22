@@ -100,6 +100,7 @@ $sequence "holster" {
 
 $sequence "reload" {
 	"anims/reload.smd"
+	frame 37 94
 }
 
 $sequence "reload_empty" {
