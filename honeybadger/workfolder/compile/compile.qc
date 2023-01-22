@@ -39,10 +39,11 @@ $bodygroup "rail"
 	studio "rail.smd"
 }
 
-$bodygroup "suppressor"
+$bodygroup "stock"
 {
-	blank
-	studio "suppressor.smd"
+	studio "stock_extended.smd"
+	studio "stock_collapsed.smd"
+	studio "stock_none.smd"
 }
 
 $cdmaterials "uc/badger"
