@@ -196,7 +196,7 @@ $sequence "idle_empty" {
 
 $sequence "fire" {
 	"c_ud_glock_anims\fire.smd"
-	"c_ud_glock_anims\fire_2.smd"
+	"c_ud_glock_anims\fire_iron.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	blend "sights" 0 1
 	blendwidth 2
@@ -207,7 +207,7 @@ $sequence "fire" {
 
 $sequence "fire_empty" {
 	"c_ud_glock_anims\fire_empty.smd"
-	"c_ud_glock_anims\fire_empty_2.smd"
+	"c_ud_glock_anims\fire_iron_empty.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	blend "sights" 0 1
 	blendwidth 2
