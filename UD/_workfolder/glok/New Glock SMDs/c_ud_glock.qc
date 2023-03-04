@@ -218,7 +218,7 @@ $sequence "fire_empty" {
 
 $sequence "fire_stock" {
 	"c_ud_glock_anims\fire_stock.smd"
-	"c_ud_glock_anims\fire_stock_2.smd"
+	"c_ud_glock_anims\fire_stock_iron.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	blend "sights" 0 1
 	blendwidth 2
@@ -228,8 +228,8 @@ $sequence "fire_stock" {
 }
 
 $sequence "fire_empty_stock" {
-	"c_ud_glock_anims\fire_empty_stock.smd"
-	"c_ud_glock_anims\fire_empty_stock_2.smd"
+	"c_ud_glock_anims\fire_stock_empty.smd"
+	"c_ud_glock_anims\fire_stock_iron_empty.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	blend "sights" 0 1
 	blendwidth 2
@@ -377,10 +377,10 @@ $sequence "fix_empty_100" {
 
 $sequence "reload" {
 	"c_ud_glock_anims\reload.smd"
-	"c_ud_glock_anims\reload_2.smd"
+	//"c_ud_glock_anims\reload_2.smd"
 	activity "ACT_VM_RELOAD" 1
-	blend "sights" 0 1
-	blendwidth 2
+	//blend "sights" 0 1
+	//blendwidth 2
 	{ event 5004 0 "Starts" }
 	{ event 5004 21 "MagOut" }
 	{ event 5004 30 "MagInFail" }
@@ -394,10 +394,10 @@ $sequence "reload" {
 
 $sequence "reload_empty" {
 	"c_ud_glock_anims\reload_empty.smd"
-	"c_ud_glock_anims\reload_empty_2.smd"
+	//"c_ud_glock_anims\reload_empty_2.smd"
 	activity "ACT_VM_RELOAD" 1
-	blend "sights" 0 1
-	blendwidth 2
+	//blend "sights" 0 1
+	//blendwidth 2
 	{ event 5004 0 "Starts" }
 	{ event 5004 9 "MagOut" }
 	{ event 5004 30 "MagInFail" }
@@ -412,10 +412,10 @@ $sequence "reload_empty" {
 
 $sequence "reload_empty_fesiug" {
 	"c_ud_glock_anims\reload_empty_fesiug.smd"
-	"c_ud_glock_anims\reload_empty_fesiug_2.smd"
+	//"c_ud_glock_anims\reload_empty_fesiug_2.smd"
 	activity "ACT_VM_RELOAD" 1
-	blend "sights" 0 1
-	blendwidth 2
+	//blend "sights" 0 1
+	//blendwidth 2
 	{ event 5004 0 "Starts" }
 	{ event 5004 9 "MagOut" }
 	{ event 5004 30 "MagInFail" }
@@ -430,10 +430,10 @@ $sequence "reload_empty_fesiug" {
 
 $sequence "reload_10" {
 	"c_ud_glock_anims\reload_10.smd"
-	"c_ud_glock_anims\reload_10_2.smd"
+	//"c_ud_glock_anims\reload_10_2.smd"
 	activity "ACT_VM_RELOAD" 1
-	blend "sights" 0 1
-	blendwidth 2
+	//blend "sights" 0 1
+	//blendwidth 2
 	{ event 5004 0 "Starts" }
 	{ event 5004 14 "MagOut" }
 	{ event 5004 28 "MagInFail" }
@@ -447,10 +447,10 @@ $sequence "reload_10" {
 
 $sequence "reload_empty_10" {
 	"c_ud_glock_anims\reload_empty_10.smd"
-	"c_ud_glock_anims\reload_empty_10_2.smd"
+	//"c_ud_glock_anims\reload_empty_10_2.smd"
 	activity "ACT_VM_RELOAD" 1
-	blend "sights" 0 1
-	blendwidth 2
+	//blend "sights" 0 1
+	//blendwidth 2
 	{ event 5004 0 "Starts" }
 	{ event 5004 9 "MagOut" }
 	{ event 5004 30 "MagInFail" }
@@ -465,10 +465,10 @@ $sequence "reload_empty_10" {
 
 $sequence "reload_33" {
 	"c_ud_glock_anims\reload_33.smd"
-	"c_ud_glock_anims\reload_33_2.smd"
+	//"c_ud_glock_anims\reload_33_2.smd"
 	activity "ACT_VM_RELOAD" 1
-	blend "sights" 0 1
-	blendwidth 2
+	//blend "sights" 0 1
+	//blendwidth 2
 	{ event 5004 0 "Starts" }
 	{ event 5004 14 "MagOut" }
 	{ event 5004 31 "MagInFail" }
@@ -482,10 +482,10 @@ $sequence "reload_33" {
 
 $sequence "reload_empty_33" {
 	"c_ud_glock_anims\reload_empty_33.smd"
-	"c_ud_glock_anims\reload_empty_33_2.smd"
+	//"c_ud_glock_anims\reload_empty_33_2.smd"
 	activity "ACT_VM_RELOAD" 1
-	blend "sights" 0 1
-	blendwidth 2
+	//blend "sights" 0 1
+	//blendwidth 2
 	{ event 5004 0 "Starts" }
 	{ event 5004 9 "MagOut" }
 	{ event 5004 31 "MagInFail" }
@@ -500,10 +500,10 @@ $sequence "reload_empty_33" {
 
 $sequence "reload_100" {
 	"c_ud_glock_anims\reload_100.smd"
-	"c_ud_glock_anims\reload_100_2.smd"
+	//"c_ud_glock_anims\reload_100_2.smd"
 	activity "ACT_VM_RELOAD" 1
-	blend "sights" 0 1
-	blendwidth 2
+	//blend "sights" 0 1
+	//blendwidth 2
 	{ event 5004 0 "Starts" }
 	{ event 5004 14 "MagOut" }
 	{ event 5004 37 "MagInFail" }
@@ -517,10 +517,10 @@ $sequence "reload_100" {
 
 $sequence "reload_empty_100" {
 	"c_ud_glock_anims\reload_empty_100.smd"
-	"c_ud_glock_anims\reload_empty_100_2.smd"
+	//"c_ud_glock_anims\reload_empty_100_2.smd"
 	activity "ACT_VM_RELOAD" 1
-	blend "sights" 0 1
-	blendwidth 2
+	//blend "sights" 0 1
+	//blendwidth 2
 	{ event 5004 0 "Starts" }
 	{ event 5004 8 "MagOut" }
 	{ event 5004 31 "MagInFail" }
