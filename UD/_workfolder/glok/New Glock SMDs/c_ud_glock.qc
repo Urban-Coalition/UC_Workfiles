@@ -303,6 +303,24 @@ $sequence "holster_empty" {
 	fps 30
 }
 
+$sequence "melee" {
+	"c_ud_glock_anims\melee.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "melee_empty" {
+	"c_ud_glock_anims\melee_empty.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
 $sequence "fix" {
 	"c_ud_glock_anims\fix.smd"
 	activity "ACT_VM_IDLE" 1
@@ -314,60 +332,6 @@ $sequence "fix" {
 
 $sequence "fix_empty" {
 	"c_ud_glock_anims\fix_empty.smd"
-	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "fix_10" {
-	"c_ud_glock_anims\fix_10.smd"
-	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "fix_empty_10" {
-	"c_ud_glock_anims\fix_empty_10.smd"
-	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "fix_33" {
-	"c_ud_glock_anims\fix_33.smd"
-	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "fix_empty_33" {
-	"c_ud_glock_anims\fix_empty_33.smd"
-	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "fix_100" {
-	"c_ud_glock_anims\fix_100.smd"
-	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "fix_empty_100" {
-	"c_ud_glock_anims\fix_empty_100.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
