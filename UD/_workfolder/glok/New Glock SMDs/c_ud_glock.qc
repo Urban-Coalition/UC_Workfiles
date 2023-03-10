@@ -241,6 +241,22 @@ $sequence "melee_empty" {
 	fps 30
 }
 
+$sequence "melee2" {
+	"anims\melee2.smd"
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "melee2_empty" {
+	"anims\melee2_empty.smd"
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
 $sequence "fix" {
 	"anims\fix.smd"
 	fadein 0.2
