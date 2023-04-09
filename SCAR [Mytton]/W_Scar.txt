@@ -1,0 +1,25 @@
+Naming Convension: [Faux French et Dutch]
+Dutch: ui > ow/au	ij > i/ei/ai	eer/aar > ere/are
+French: ch > sh	oi > wa
+
+
+Dutch:
+H-20 Round [Default]	Osckar 21
+SSR-10 Round		Laansier 24
+L-30 Round		Scharlijk 16
+AK-32/70 Round		Kijmaar 32
+9mm-25 Round		Aanvullend 16
+
+French:
+H-20 Round [Default]	Oskée 21			[K sort of doesn't exists in French, only for loan words and name]
+SSR-10 Round		Lancier 24	
+L-30 Round		Scarlette 17
+AK-32/70 Round		Chimère 32
+9mm-25 Round		Auteroir 16
+
+
+H-20 Round [Default]	Osckée 21	
+SSR-10 Round		Lancierie 24
+L-30 Round		Scarlett 17
+AK-32/70 Round		Kijmaar 32
+9mm-25 Round		Aanvulloir 16
