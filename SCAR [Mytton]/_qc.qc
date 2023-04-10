@@ -58,7 +58,7 @@ $bodygroup "7" {
 	studio "Stock.smd" //1
 	studio "StocK_F.smd" //2
 	studio "Stock_AK.smd" //3
-	studio "Stock_AK_F.smd" //4
+	studio "Stock_AKF.smd" //4
 	studio "Stock_MK16.smd" //5
 	studio "Stock_MK16F.smd" //6
 	studio "Stock_SSR.smd" //7
@@ -100,11 +100,9 @@ $texturegroup "skinfamilies"
 	{ "brokescarh_black" }
 }
 
-$attachment "1" "m16_flash" 0 0 0 rotate -90 0 0
-$attachment "2" "brass" 0.00 -0.75 -1.00 rotate -10 140 180
-$attachment "3" "camera" 0 0 0 rotate -90 0 0
-$attachment "4" "m16_flash" 0 0 -4 rotate -90 0 0
-$attachment "5" "m16_flash" 0 0 -10 rotate -90 0 0
+$attachment "1" "W_Main" 0.00 1.75 18.00 rotate -90 -0 0
+$attachment "2" "W_Main" -1.50 2.00 1.50 rotate -0 135 -180
+$attachment "3" "W_Cam" 0 0 0 rotate -90 0 0
 
 $surfaceprop "weapon"
  
@@ -117,14 +115,14 @@ $cbox 0 0 0 0 0 0
 $poseparameter "sights" 0 1 loop 0
 
 $sequence "idle" "anims\idle.smd" {
-	fps 30
+	fps 40
 	"ACT_VM_IDLE" 1
 	loop
 	snap
 }
 
 $sequence "idle_empty" "anims\idle_emp.smd" {
-	fps 30
+	fps 40
 	"ACT_VM_IDLE" 1
 	loop
 	snap
@@ -134,7 +132,7 @@ $sequence "fire" {
 	"anims\fire.smd"
 	"anims\fire_iron.smd"
 	blend "sights" 0 1
-	fps 30
+	fps 40
 	"ACT_VM_PRIMARYATTACK" 1
 	fadein 0.03
 	fadeout 0.03
@@ -144,38 +142,44 @@ $sequence "fire_empty" {
 	"anims\fire_emp.smd"
 	"anims\fire_iron_emp.smd"
 	blend "sights" 0 1
-	fps 30
+	fps 40
 	"ACT_VM_PRIMARYATTACK" 1
 	fadein 0.03
 	fadeout 0.03
 }
 
 $sequence "draw" "anims\draw.smd" {
-	fps 30
+	fps 40
+	"ACT_VM_DRAW" 1
+	snap
+}
+
+$sequence "deploy" "anims\deploy.smd" {
+	fps 40
 	"ACT_VM_DRAW" 1
 	snap
 }
 
 $sequence "draw_empty" "anims\draw_emp.smd" {
-	fps 30
+	fps 40
 	"ACT_VM_DRAW" 1
 	snap
 }
 
 $sequence "holster" "anims\holster.smd" {
-	fps 30
+	fps 40
 	"ACT_VM_DRAW" 1
 	snap
 }
 
 $sequence "holster_emp" "anims\holster_emp.smd" {
-	fps 30
+	fps 40
 	"ACT_VM_DRAW" 1
 	snap
 }
 
 $sequence "fix" "anims\unjam.smd" {
-	fps 30
+	fps 40
 	"ACT_VM_IDLE" 1
 	snap
 }
@@ -183,7 +187,7 @@ $sequence "fix" "anims\unjam.smd" {
 $sequence "reload" {
 	"anims\wet.smd"
 	//"anims\wet_iron.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -192,7 +196,7 @@ $sequence "reload" {
 $sequence "reload_empty" {
 	"anims\dry.smd"
 	//"anims\dry_iron.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -201,7 +205,7 @@ $sequence "reload_empty" {
 $sequence "reload_556" {
 	"anims\wet_556.smd"
 	//"anims\wet_iron_556.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -210,7 +214,7 @@ $sequence "reload_556" {
 $sequence "reload_empty_556" {
 	"anims\dry_556.smd"
 	//"anims\dry_iron_556.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -219,7 +223,7 @@ $sequence "reload_empty_556" {
 $sequence "reload_ak" {
 	"anims\wet_ak.smd"
 	//"anims\wet_iron_ak.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -228,7 +232,7 @@ $sequence "reload_ak" {
 $sequence "reload_empty_ak" {
 	"anims\dry_ak.smd"
 	//"anims\dry_iron_ak.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -237,7 +241,7 @@ $sequence "reload_empty_ak" {
 $sequence "reload_ssr" {
 	"anims\wet_ssr.smd"
 	//"anims\wet_iron_ssr.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -246,7 +250,7 @@ $sequence "reload_ssr" {
 $sequence "reload_empty_ssr" {
 	"anims\dry_ssr.smd"
 	//"anims\dry_iron_ssr.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -254,8 +258,8 @@ $sequence "reload_empty_ssr" {
 
 $sequence "reload_9mm" {
 	"anims\wet_9mm.smd"
-	\\"anims\wet_iron_9mm.smd"
-	fps 30
+	//"anims\wet_iron_9mm.smd"
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -263,8 +267,8 @@ $sequence "reload_9mm" {
 
 $sequence "reload_empty_9mm" {
 	"anims\dry_9mm.smd"
-	\\"anims\dry_iron_9mm.smd"
-	fps 30
+	//"anims\dry_iron_9mm.smd"
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -273,33 +277,161 @@ $sequence "reload_empty_9mm" {
 
 
 $sequence "inspect_enter" {
-	"anims\m16inspect_enter"
-	fps 37
+	"anims\inspect_in"
+	fps 40
 	// snap
 }
 $sequence "inspect_loop" {
-	"anims\m16inspect_loop"
-	fps 24
+	"anims\inspect"
+	fps 40
 	// snap
 }
 $sequence "inspect_exit" {
-	"anims\m16inspect_exit"
-	fps 37
+	"anims\inspect_out"
+	fps 40
 	// snap
 }
 $sequence "inspect_enter_empty" {
-	"anims\m16inspect_enter_empty"
-	fps 37
+	"anims\inspect_in_emp"
+	fps 40
 	// snap
 }
 $sequence "inspect_loop_empty" {
-	"anims\m16inspect_loop_empty"
-	fps 24
+	"anims\inspect_emp"
+	fps 40
 	// snap
 }
 $sequence "inspect_exit_empty" {
-	"anims\m16inspect_exit_empty"
-	fps 37
+	"anims\inspect_out_emp"
+	fps 40
+	// snap
+}
+
+
+$sequence "inspect_enter_ssr" {
+	"anims\inspect_in_ssr"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_ssr" {
+	"anims\inspect_ssr"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_ssr" {
+	"anims\inspect_out_ssr"
+	fps 40
+	// snap
+}
+$sequence "inspect_enter_empty_ssr" {
+	"anims\inspect_in_ssr_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_empty_ssr" {
+	"anims\inspect_ssr_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_empty_ssr" {
+	"anims\inspect_out_ssr_emp"
+	fps 40
+	// snap
+}
+
+
+$sequence "inspect_enter_ak" {
+	"anims\inspect_in_ak"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_ak" {
+	"anims\inspect_ak"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_ak" {
+	"anims\inspect_out_ak"
+	fps 40
+	// snap
+}
+$sequence "inspect_enter_empty_ak" {
+	"anims\inspect_in_ak_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_empty_ak" {
+	"anims\inspect_ak_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_empty_ak" {
+	"anims\inspect_out_ak_emp"
+	fps 40
+	// snap
+}
+
+
+$sequence "inspect_enter_556" {
+	"anims\inspect_in_556"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_556" {
+	"anims\inspect_556"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_556" {
+	"anims\inspect_out_556"
+	fps 40
+	// snap
+}
+$sequence "inspect_enter_empty_556" {
+	"anims\inspect_in_556_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_empty_556" {
+	"anims\inspect_556_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_empty_556" {
+	"anims\inspect_out_556_emp"
+	fps 40
+	// snap
+}
+
+
+$sequence "inspect_enter_9mm" {
+	"anims\inspect_in_9mm"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_9mm" {
+	"anims\inspect_9mm"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_9mm" {
+	"anims\inspect_out_9mm"
+	fps 40
+	// snap
+}
+$sequence "inspect_enter_empty_9mm" {
+	"anims\inspect_in_9mm_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_empty_9mm" {
+	"anims\inspect_9mm_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_empty_9mm" {
+	"anims\inspect_out_9mm_emp"
+	fps 40
 	// snap
 }
 
@@ -344,7 +476,7 @@ $bonemerge "ValveBiped.Bip01_R_Finger0"
 $bonemerge "ValveBiped.Bip01_R_Finger01"
 $bonemerge "ValveBiped.Bip01_R_Finger02"
 
-$collisionmodel "m16_col.smd"
+$collisionmodel "Up.smd"
 {
 	$mass 5
 }

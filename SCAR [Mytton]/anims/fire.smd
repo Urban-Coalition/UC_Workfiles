@@ -74,7 +74,7 @@ nodes
 71 "W_MagC_Pist" -1
 72 "W_MagC_SSR" -1
 73 "W_Cam" -1
-74 "W_Cam.001" -1
+74 "W_CamC" -1
 end
 skeleton
 time 0
