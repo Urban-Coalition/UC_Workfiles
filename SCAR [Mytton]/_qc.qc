@@ -55,16 +55,16 @@ $bodygroup "6" {
 }
 
 $bodygroup "7" {
-	studio "Stock.smd" //1
-	studio "StocK_F.smd" //2
-	studio "Stock_AK.smd" //3
-	studio "Stock_AKF.smd" //4
-	studio "Stock_MK16.smd" //5
-	studio "Stock_MK16F.smd" //6
-	studio "Stock_SSR.smd" //7
-	studio "Stock_Wire.smd" //8
-	studio "Stock_WireF.smd" //9
-	blank //10
+	studio "Stock.smd" //0
+	studio "StocK_F.smd" //1
+	studio "Stock_AK.smd" //2
+	studio "Stock_AKF.smd" //3
+	studio "Stock_MK16.smd" //4
+	studio "Stock_MK16F.smd" //5
+	studio "Stock_SSR.smd" //6
+	studio "Stock_Wire.smd" //7
+	studio "Stock_WireF.smd" //8
+	blank //9
 }
 
 $bodygroup "8" {
