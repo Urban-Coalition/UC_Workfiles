@@ -238,6 +238,24 @@ $sequence "reload_empty_ak" {
 	snap
 }
 
+$sequence "reload_ak_drum" {
+	"anims\wet_ak_drum2.smd"
+	//"anims\wet_iron_ak_drum.smd"
+	fps 40
+	"ACT_VM_RELOAD" 1
+	blend "sights" 0 1
+	snap
+}
+
+$sequence "reload_empty_ak_drum" {
+	"anims\dry_ak_drum.smd"
+	//"anims\dry_iron_ak_drum.smd"
+	fps 40
+	"ACT_VM_RELOAD" 1
+	blend "sights" 0 1
+	snap
+}
+
 $sequence "reload_ssr" {
 	"anims\wet_ssr.smd"
 	//"anims\wet_iron_ssr.smd"
@@ -367,6 +385,38 @@ $sequence "inspect_loop_empty_ak" {
 }
 $sequence "inspect_exit_empty_ak" {
 	"anims\inspect_out_ak_emp"
+	fps 40
+	// snap
+}
+
+
+$sequence "inspect_enter_ak_drum" {
+	"anims\inspect_in_ak_drum"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_ak_drum" {
+	"anims\inspect_ak_drum"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_ak_drum" {
+	"anims\inspect_out_ak_drum"
+	fps 40
+	// snap
+}
+$sequence "inspect_enter_empty_ak_drum" {
+	"anims\inspect_in_ak_drum_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_empty_ak_drum" {
+	"anims\inspect_ak_drum_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_empty_ak_drum" {
+	"anims\inspect_out_ak_drum_emp"
 	fps 40
 	// snap
 }
