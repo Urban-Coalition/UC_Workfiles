@@ -7,13 +7,13 @@ Dutch:
 H-20 Round [Default]	Osckar 21
 SSR-10 Round		Laansier 24
 L-30 Round		Scharlijk 16
-AK-32/70 Round		Kijmaar 32
+AK-32/70 Round		Kijmaar 32	(Chimera in Dutch is like -Brain Image- or something, used transcript instead)
 9mm-40 Round		Aanvullend 16
 EVOLYS			Lawine 52 (From High German Lawene/Lowin/Lewina, meaning to glide) / Glijdewen
 
 
 French:
-H-20 Round [Default]	Oskée 21			[K sort of doesn't exists in French, only for loan words and name]
+H-20 Round [Default]	Oskée 21		[K sort of doesn't exists in French, only for loan words and name]
 SSR-10 Round		Lancier 24	
 L-30 Round		Scarlette 17
 AK-32/70 Round		Chimère 32
@@ -21,9 +21,21 @@ AK-32/70 Round		Chimère 32
 EVOLYS			Neigiere 52 / Glissér
 
 
-H-20 Round [Default]	Osckée 21	
+H-20 Round [Default]	Osckée 21	(osckee is a regional variant of the name oscar in parts of not very dutch netherlands)
 SSR-10 Round		Lancierie 24
-L-30 Round		Scarlett 17
+L-30 Round		Scarlett 17	(starting to think the dutch variant is better)
 AK-32/70 Round		Chijmaar 32
 9mm-40 Round		Aanvulloir 16
 EVOLYS			Glijssieren 52
+
+
+credits:
+ImBrokeRU - base model
+Bull - base texture
+Medal of Honour [something idk warfighter??] - MK16 Stock
+[i have no fucking clue??] - SSR stock
+CoD MW19 - Vector mag
+BF2042 - Evolys
+
+AK parts - Refer to UR
+M16 parts - Refer to UD
