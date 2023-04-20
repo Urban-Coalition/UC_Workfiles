@@ -11,6 +11,7 @@ $bodygroup "1" {
 	studio "Up_XShort.smd" //2
 	studio "UP_SD.smd" //3
 	blank //4
+	studio "UP_20.smd" //5
 }
 
 $bodygroup "2" {
@@ -45,6 +46,8 @@ $bodygroup "5" {
 	studio "Sight_XU.smd" //4
 	studio "Sight_XD.smd" //5
 	blank //6
+	studio "Sight_20U.smd" //7
+	studio "Sight_20D.smd" //8
 }
 
 $bodygroup "6" {
@@ -72,7 +75,8 @@ $bodygroup "8" {
 	studio "Barrel_S.smd" //1
 	studio "Barrel_XS.smd" //2
 	studio "Barrel_X.smd" //3
-	blank
+	blank //4
+	studio "Barrel_20.smd" //5
 }
 
 $bodygroup "9" {
@@ -80,7 +84,8 @@ $bodygroup "9" {
 	studio "Brake_S.smd" //1
 	studio "Brake_XS.smd" //2
 	studio "Brake_X.smd" //3
-	blank
+	blank //4
+	studio "Brake_20.smd" //5
 }
 
 $cdmaterials "models\weapons\arccw\uc_myt_scar"

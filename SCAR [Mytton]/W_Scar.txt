@@ -8,18 +8,22 @@ H-20 Round [Default]	Osckar 21
 SSR-10 Round		Laansier 24
 L-30 Round		Scharlijk 16
 AK-32/70 Round		Kijmaar 32
-9mm-25 Round		Aanvullend 16
+9mm-40 Round		Aanvullend 16
+EVOLYS			Lawine 52 (From High German Lawene/Lowin/Lewina, meaning to glide) / Glijdewen
+
 
 French:
 H-20 Round [Default]	Oskée 21			[K sort of doesn't exists in French, only for loan words and name]
 SSR-10 Round		Lancier 24	
 L-30 Round		Scarlette 17
 AK-32/70 Round		Chimère 32
-9mm-25 Round		Auteroir 16
+9mm-40 Round		Auteroir 16
+EVOLYS			Neigiere 52 / Glissér
 
 
 H-20 Round [Default]	Osckée 21	
 SSR-10 Round		Lancierie 24
 L-30 Round		Scarlett 17
-AK-32/70 Round		Kijmaar 32
-9mm-25 Round		Aanvulloir 16
+AK-32/70 Round		Chijmaar 32
+9mm-40 Round		Aanvulloir 16
+EVOLYS			Glijssieren 52
