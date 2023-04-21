@@ -11,6 +11,7 @@ $bodygroup "1" {
 	studio "Up_XShort.smd" //2
 	studio "UP_SD.smd" //3
 	blank //4
+	studio "UP_20.smd" //5
 }
 
 $bodygroup "2" {
@@ -45,6 +46,8 @@ $bodygroup "5" {
 	studio "Sight_XU.smd" //4
 	studio "Sight_XD.smd" //5
 	blank //6
+	studio "Sight_20U.smd" //7
+	studio "Sight_20D.smd" //8
 }
 
 $bodygroup "6" {
@@ -72,7 +75,8 @@ $bodygroup "8" {
 	studio "Barrel_S.smd" //1
 	studio "Barrel_XS.smd" //2
 	studio "Barrel_X.smd" //3
-	blank
+	blank //4
+	studio "Barrel_20.smd" //5
 }
 
 $bodygroup "9" {
@@ -80,7 +84,8 @@ $bodygroup "9" {
 	studio "Brake_S.smd" //1
 	studio "Brake_XS.smd" //2
 	studio "Brake_X.smd" //3
-	blank
+	blank //4
+	studio "Brake_20.smd" //5
 }
 
 $cdmaterials "models\weapons\arccw\uc_myt_scar"
@@ -238,6 +243,24 @@ $sequence "reload_empty_ak" {
 	snap
 }
 
+$sequence "reload_ak_drum" {
+	"anims\wet_ak_drum2.smd"
+	//"anims\wet_iron_ak_drum.smd"
+	fps 40
+	"ACT_VM_RELOAD" 1
+	blend "sights" 0 1
+	snap
+}
+
+$sequence "reload_empty_ak_drum" {
+	"anims\dry_ak_drum.smd"
+	//"anims\dry_iron_ak_drum.smd"
+	fps 40
+	"ACT_VM_RELOAD" 1
+	blend "sights" 0 1
+	snap
+}
+
 $sequence "reload_ssr" {
 	"anims\wet_ssr.smd"
 	//"anims\wet_iron_ssr.smd"
@@ -367,6 +390,38 @@ $sequence "inspect_loop_empty_ak" {
 }
 $sequence "inspect_exit_empty_ak" {
 	"anims\inspect_out_ak_emp"
+	fps 40
+	// snap
+}
+
+
+$sequence "inspect_enter_ak_drum" {
+	"anims\inspect_in_ak_drum"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_ak_drum" {
+	"anims\inspect_ak_drum"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_ak_drum" {
+	"anims\inspect_out_ak_drum"
+	fps 40
+	// snap
+}
+$sequence "inspect_enter_empty_ak_drum" {
+	"anims\inspect_in_ak_drum_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_empty_ak_drum" {
+	"anims\inspect_ak_drum_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_empty_ak_drum" {
+	"anims\inspect_out_ak_drum_emp"
 	fps 40
 	// snap
 }
