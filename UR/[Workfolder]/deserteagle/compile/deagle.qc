@@ -159,6 +159,32 @@ $sequence "ready" {
 	snap
 }
 
+
+$sequence "draw" "anims_howowoo\draw.smd" {
+	fps 40
+	"ACT_VM_DRAW" 1
+	snap
+}
+
+$sequence "draw_empty" "anims_howowoo\draw_empty.smd" {
+	fps 40
+	"ACT_VM_DRAW" 1
+	snap
+}
+
+$sequence "holster" "anims_howowoo\holster.smd" {
+	fps 40
+	"ACT_VM_DRAW" 1
+	snap
+}
+
+$sequence "holster_empty" "anims_howowoo\holster_empty.smd" {
+	fps 40
+	"ACT_VM_DRAW" 1
+	snap
+}
+
+
 $sequence "reload" {
 	"anims\reload.smd"
 	fps 60

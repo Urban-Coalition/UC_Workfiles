@@ -51,28 +51,25 @@ $cbox 0 0 0 0 0 0
 
 $poseparameter "sights" 0 1 loop 0
 
-$sequence "idle" "anims\idle.smd" {
+$sequence "idle" "anims_new\idle.smd" {
 	fps 30
 	"ACT_VM_IDLE" 1
 	loop
 	snap
-	node "Ready"
 }
 
-$sequence "idle_empty" "anims\idle_empty.smd" {
+$sequence "idle_empty" "anims_new\idle_empty.smd" {
 	fps 30
 	"ACT_VM_IDLE" 1
 	loop
 	snap
-	node "Ready"
 }
 
-$sequence "idle_empty_semi" "anims\idle_empty_semi.smd" {
+$sequence "idle_empty_semi" "anims_new\idle_empty_semi.smd" {
 	fps 30
 	"ACT_VM_IDLE" 1
 	loop
 	snap
-	node "Ready"
 }
 
 $sequence "fire_pump" "anims_new\fire_pump.smd" {
@@ -88,14 +85,6 @@ $sequence "fire_semi" "anims_new\fire_semi.smd" {
 	"ACT_VM_PRIMARYATTACK" 1
 	snap
 }
-
-$sequence "fire_empty_semi" "anims_new\fire_empty_semi.smd" {
-	blend "sights" 0 1
-	fps 30
-	"ACT_VM_PRIMARYATTACK" 1
-	snap
-}
-
 
 $sequence "cycle" {
 	"anims_new\cycle.smd"
@@ -137,6 +126,14 @@ $sequence "sgreload_start" {
 
 $sequence "sgreload_start_empty" {
 	"anims_new\sgreload_start_empty_pump.smd"
+	fps 30
+	"ACT_VM_RELOAD" 1
+	blend "sights" 0 1
+	snap
+}
+
+$sequence "sgreload_start_empty_alt" {
+	"anims_new\sgreload_start_empty_pump_alt.smd"
 	fps 30
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
