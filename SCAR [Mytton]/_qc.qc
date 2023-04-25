@@ -3,6 +3,7 @@ $modelname "weapons\arccw\c_uc_myt_scar.mdl"
 $bodygroup "studio" {
 	studio "StockA.smd"
 	blank
+	studio "StockB.smd"
 }
 
 $bodygroup "1" {
@@ -26,6 +27,7 @@ $bodygroup "2" {
 
 $bodygroup "3" {
 	blank //0
+	studio "StockA_Buf.smd" //1
 	studio "StockA_Buf.smd" //1
 }
 
@@ -67,7 +69,8 @@ $bodygroup "7" {
 	studio "Stock_SSR.smd" //6
 	studio "Stock_Wire.smd" //7
 	studio "Stock_WireF.smd" //8
-	blank //9
+	blank // 9
+	studio "StockB_Buf_Tube.smd" //10
 }
 
 $bodygroup "8" {
