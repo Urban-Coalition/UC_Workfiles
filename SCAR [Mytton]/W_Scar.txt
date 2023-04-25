@@ -9,7 +9,7 @@ SSR-10 Round		Laansier 24
 L-30 Round		Scharlijk 16
 AK-32/70 Round		Kijmaar 32	(Chimera in Dutch is like -Brain Image- or something, used transcript instead)
 9mm-40 Round		Aanvullend 16
-EVOLYS			Lawine 52 (From High German Lawene/Lowin/Lewina, meaning to glide) / Glijdewen
+EVOLYS			Lawine 52	(From High German Lawene/Lowin/Lewina, meaning to glide) / Glijdewen
 
 
 French:
@@ -34,8 +34,10 @@ ImBrokeRU - base model
 Bull - base texture
 Medal of Honour [something idk warfighter??] - MK16 Stock
 [i have no fucking clue??] - SSR stock
-CoD MW19 - Vector mag
+CoD MW19 - Vector mag, Stock adaptor
 BF2042 - Evolys
+
+Selles - stuff
 
 AK parts - Refer to UR
 M16 parts - Refer to UD
