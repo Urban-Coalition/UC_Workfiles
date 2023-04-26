@@ -168,6 +168,12 @@ $sequence "deploy" "anims\deploy.smd" {
 	snap
 }
 
+$sequence "deploy_empty" "anims\deploy_emp.smd" {
+	fps 40
+	"ACT_VM_DRAW" 1
+	snap
+}
+
 $sequence "draw_empty" "anims\draw_emp.smd" {
 	fps 40
 	"ACT_VM_DRAW" 1
