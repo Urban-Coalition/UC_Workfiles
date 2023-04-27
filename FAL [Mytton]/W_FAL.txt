@@ -13,6 +13,10 @@ French:
 C-308		Droiteaux  C1	Aurolaroix C1
 I-556		Relicosseur I2
 
+Description:
+C-308	Shipped back from Department du Nord, a land of constant snowstorm prohibits the use of conventional magazine. Take either 10 or 5 round load to fill up this machine
+I-556	The South Division did not need such stopping power of a full blown cartridge, instead opted for a more conventional magazine in intermediate calibre
+
 
 credits:
 INSS/Rising Storm 2 - base model/texture
@@ -25,6 +29,6 @@ Selles - stuff
 Legend:
 W_ : Words, text go here
 A_ : Animation, where the magic happends
-M_ : Prestep to Animation, probably never touched again
-T_ : Thumbnail making machine
+M_ : Prestep to Animation, probably never touched again once theres a A_ file
+T_ : Thumbnail making machine, refer to SCAR
 R_ : Render icons, spawn and shit, template base, DO NOT SAVE IT, this one uses Cycles so please dont multi task
