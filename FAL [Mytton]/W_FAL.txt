@@ -1,0 +1,30 @@
+308 is stripper clip ONLY
+556 is bitch
+
+what other funny calibre, telegram me
+
+
+
+English:
+C-308 [Default] 	insert pun about either right or light here	
+I-556		insert pun about south america here
+
+French:
+C-308		Droiteaux  C1	Aurolaroix C1
+I-556		Relicosseur I2
+
+
+credits:
+INSS/Rising Storm 2 - base model/texture
+Warface(?) - IMBEL parts
+
+Selles - stuff
+
+
+
+Legend:
+W_ : Words, text go here
+A_ : Animation, where the magic happends
+M_ : Prestep to Animation, probably never touched again
+T_ : Thumbnail making machine
+R_ : Render icons, spawn and shit, template base, DO NOT SAVE IT, this one uses Cycles so please dont multi task
