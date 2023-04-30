@@ -57,9 +57,10 @@ $bodygroup "7" {
 $cdmaterials "models\weapons\arccw\uc_myt_fal"
 $cdmaterials "models\weapons\arccw\shared""
 $cdmaterials "models/UC/attachments/"
+$cdmaterials "models\weapons\arccw\uc_shells\"
 
-$attachment "1" "W_Main" 0.00 1.75 18.00 rotate -90 -0 0
-$attachment "2" "W_Main" -1.50 2.00 1.50 rotate -0 135 -180
+$attachment "1" "W_Main" 0.00 0.00 22.00 rotate -90 -0 0
+$attachment "2" "W_Main" -1.00 0.50 0.50 rotate -0 135 -180
 $attachment "3" "W_Cam" 0 0 0 rotate -90 0 0
 
 $surfaceprop "weapon"
@@ -150,7 +151,7 @@ $sequence "reload_empty_40" {
 
 $sequence "sgreload_start" {
 	"anims\seqr_start.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -158,7 +159,7 @@ $sequence "sgreload_start" {
 
 $sequence "sgreload_insert" {
 	"anims\seqr_1.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -166,7 +167,7 @@ $sequence "sgreload_insert" {
 
 $sequence "sgreload_insert_10" {
 	"anims\seqr_10.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
@@ -174,15 +175,15 @@ $sequence "sgreload_insert_10" {
 
 $sequence "sgreload_insert_5" {
 	"anims\seqr_5.smd"
-	fps 30
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
 }
 
 $sequence "sgreload_finish" {
-	"anims\seqr_start.smd"
-	fps 30
+	"anims\seqr_end.smd"
+	fps 40
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
 	snap
