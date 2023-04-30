@@ -50,8 +50,10 @@ $bodygroup "6" {
 $bodygroup "7" {
 	studio "Stock_Wood.smd" //0
 	studio "Stock_Fold.smd" //1
-	studio "Stock_IMBEL.smd" //2
-	blank // 3
+	studio "Stock_Folded.smd" //2
+	studio "Stock_IMBEL.smd" //3
+	studio "Stock_A.smd" //4
+	blank // 5
 }
 
 $cdmaterials "models\weapons\arccw\uc_myt_fal"
