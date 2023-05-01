@@ -22,7 +22,7 @@ credits:
 INSS/Rising Storm 2 - base model/texture
 Warface(?) - IMBEL parts
 
-Selles - stuff
+Selles - stripper clip texture, stuff
 
 
 
