@@ -88,6 +88,20 @@ $sequence "idle" "anims\idle.smd" {
 	snap
 }
 
+$sequence "stab" "anims\stab.smd" {
+	fps 40
+	"ACT_VM_IDLE" 1
+	fadein 0.03
+	fadeout 0.03
+}
+
+$sequence "stab_emp" "anims\stab_emp.smd" {
+	fps 40
+	"ACT_VM_IDLE" 1
+	fadein 0.03
+	fadeout 0.03
+}
+
 $sequence "idle_empty" "anims\idle_emp.smd" {
 	fps 40
 	"ACT_VM_IDLE" 1
