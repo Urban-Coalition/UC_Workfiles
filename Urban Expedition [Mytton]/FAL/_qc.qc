@@ -68,8 +68,7 @@ $bodygroup "9" {
 	studio "Brake_PARA.smd" //2
 	blank //3
 	studio "Brake_Short.smd" //4
-	studio "Brake_Wood.smd" //5
-	studio "Brake_LMG.smd" //6
+	studio "Brake_LMG.smd" //5
 }
 
 $cdmaterials "models\weapons\arccw\uc_myt_fal"
