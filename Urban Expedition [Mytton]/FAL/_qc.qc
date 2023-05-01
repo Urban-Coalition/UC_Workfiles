@@ -56,6 +56,12 @@ $bodygroup "7" {
 	blank // 5
 }
 
+$bodygroup "8" {
+	blank // 0
+	studio "Rail_Short.smd" //1
+	studio "Rail.smd" //2
+}
+
 $cdmaterials "models\weapons\arccw\uc_myt_fal"
 $cdmaterials "models\weapons\arccw\shared""
 $cdmaterials "models/UC/attachments/"

@@ -15,7 +15,7 @@ I-556		Relicosseur I2
 
 Description:
 C-308	Shipped back from Department du Nord, a land of constant snowstorm prohibits the use of conventional magazine. Take either 10 or 5 round load to fill up this machine
-I-556	The South Division did not need such stopping power of a full blown cartridge, instead opted for a more conventional magazine in intermediate calibre
+I-556	The South Division did not need such stopping power of a full blown cartridge, instead opted for a more conventional magazine in an intermediate calibre
 
 
 credits:
