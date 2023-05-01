@@ -71,6 +71,12 @@ $bodygroup "9" {
 	studio "Brake_LMG.smd" //5
 }
 
+$bodygroup "10" {
+	blank // 0
+	studio "FG_Rail.smd" //1
+	studio "FG_Rail_PARA.smd" //2
+}
+
 $cdmaterials "models\weapons\arccw\uc_myt_fal"
 $cdmaterials "models\weapons\arccw\shared""
 $cdmaterials "models/UC/attachments/"
@@ -94,6 +100,13 @@ $sequence "idle" "anims\idle.smd" {
 	fps 40
 	"ACT_VM_IDLE" 1
 	loop
+	snap
+}
+
+
+$sequence "fix" "anims\jam.smd" {
+	fps 40
+	"ACT_VM_IDLE" 1
 	snap
 }
 
@@ -263,6 +276,37 @@ $sequence "reload_556" {
 	snap
 }
 
+
+$sequence "inspect_enter" {
+	"anims\inspect_in"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop" {
+	"anims\inspect"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit" {
+	"anims\inspect_out"
+	fps 40
+	// snap
+}
+$sequence "inspect_enter_empty" {
+	"anims\inspect_in_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_loop_empty" {
+	"anims\inspect_emp"
+	fps 40
+	// snap
+}
+$sequence "inspect_exit_empty" {
+	"anims\inspect_out_emp"
+	fps 40
+	// snap
+}
 
 $bonemerge "ValveBiped.Bip01_Spine4"
 $bonemerge "ValveBiped.Bip01_L_Clavicle"
