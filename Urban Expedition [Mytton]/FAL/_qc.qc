@@ -192,6 +192,25 @@ $sequence "sgreload_finish" {
 }
 
 
+$sequence "reload_empty_556" {
+	"anims\dry_556.smd"
+	//"anims\dry_iron.smd"
+	fps 40
+	"ACT_VM_RELOAD" 1
+	blend "sights" 0 1
+	snap
+}
+
+$sequence "reload_556" {
+	"anims\wet_556.smd"
+	//"anims\wet_iron.smd"
+	fps 40
+	"ACT_VM_RELOAD" 1
+	blend "sights" 0 1
+	snap
+}
+
+
 $bonemerge "ValveBiped.Bip01_Spine4"
 $bonemerge "ValveBiped.Bip01_L_Clavicle"
 $bonemerge "ValveBiped.Bip01_L_UpperArm"
