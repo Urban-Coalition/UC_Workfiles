@@ -168,6 +168,24 @@ $sequence "reload_empty" {
 	snap
 }
 
+$sequence "reload_empty_mag" {
+	"anims\dry_mag.smd"
+	//"anims\dry_iron.smd"
+	fps 40
+	"ACT_VM_RELOAD" 1
+	blend "sights" 0 1
+	snap
+}
+
+$sequence "reload_mag" {
+	"anims\wet_mag.smd"
+	//"anims\dry_iron.smd"
+	fps 40
+	"ACT_VM_RELOAD" 1
+	blend "sights" 0 1
+	snap
+}
+
 $sequence "reload_empty_40" {
 	"anims\dry_40.smd"
 	//"anims\dry_iron.smd"
