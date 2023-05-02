@@ -43,7 +43,7 @@ $bodygroup "5" {
 
 $bodygroup "6" {
 	studio "Grip_Wood.smd" //0
-	studio "Grip_IMBEL.smd" //1
+	studio "Grip_Para.smd" //1
 	blank //2
 }
 
@@ -52,7 +52,7 @@ $bodygroup "7" {
 	studio "Stock_Fold.smd" //1
 	studio "Stock_Folded.smd" //2
 	studio "Stock_A.smd" //3
-	blank // 5
+	blank // 4
 }
 
 $bodygroup "8" {

@@ -1,3 +1,6 @@
+for argument sake, this is NOT a fal
+this is a mockup c1a1 made from a fal so still not a fal :DD
+
 308 is stripper clip ONLY
 556 is bitch
 
@@ -27,7 +30,7 @@ Selles - stripper clip texture, stuff
 
 
 Legend:
-W_ : Words, text go here
+W_ : Words, text go here [you are here]
 A_ : Animation, where the magic happends
 M_ : Prestep to Animation, probably never touched again once theres a A_ file
 T_ : Thumbnail making machine, refer to SCAR
