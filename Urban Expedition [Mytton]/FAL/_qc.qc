@@ -75,6 +75,7 @@ $bodygroup "10" {
 	blank // 0
 	studio "FG_Rail.smd" //1
 	studio "FG_Rail_PARA.smd" //2
+	studio "FG_Rail_Wood.smd" //3
 }
 
 $cdmaterials "models\weapons\arccw\uc_myt_fal"
