@@ -9,7 +9,7 @@ $bodygroup "1" {
 	studio "HG.smd" //0
 	studio "HG_DSA.smd" //1
 	studio "HG_PARA.smd" //2
-	studio "HG_IMBEL.smd" //3
+	blank //3
 	studio "HG_Short.smd" //4
 	studio "HG_Wood.smd" //5
 	studio "HG_LMG.smd" //6
@@ -51,8 +51,7 @@ $bodygroup "7" {
 	studio "Stock_Wood.smd" //0
 	studio "Stock_Fold.smd" //1
 	studio "Stock_Folded.smd" //2
-	studio "Stock_IMBEL.smd" //3
-	studio "Stock_A.smd" //4
+	studio "Stock_A.smd" //3
 	blank // 5
 }
 
