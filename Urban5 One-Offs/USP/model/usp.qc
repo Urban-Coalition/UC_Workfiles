@@ -19,17 +19,21 @@ $bodygroup "weight" {
 	blank
 	studio "match_weight.smd"
 }
-$bodygroup "sight" {
-	studio "sight_rear.smd"
-	studio "sight_mount.smd"
-	studio "REAR.smd"
+
+$bodygroup "sight" { // 4
+	studio "sight_def_def.smd" // 0
+	studio "sight_def_long.smd" // 1
+	studio "sight_def_short.smd" // 2
+
+	studio "sight_mount_def.smd" // 3
+	studio "sight_mount_long.smd" // 4
+	studio "sight_mount_short.smd" // 5
+
+	studio "sight_tac_def.smd" // 6
+	studio "sight_tac_long.smd" // 7
+	studio "sight_tac_short.smd" // 8
+
 	blank
-}
-$bodygroup "sight" {
-	blank
-	studio "FRONT.smd"
-	studio "FRONT_SHORT.smd"
-	studio "FRONT_LONG.smd"
 }
 
 
