@@ -1,34 +1,37 @@
 $modelname "weapons\arccw\c_ur_spas12.mdl"
  
-$bodygroup "studio" {
+$bodygroup "0" {
 	studio "newest_frame.smd"
+	blank
 }
 
-$bodygroup "barrel" {
+$bodygroup "1" {
 	studio "newest_barrel_long.smd"
 	studio "newest_barrel_short.smd"
 }
 
-$bodygroup "4" {
+$bodygroup "2" {
 	studio "newest_tube_long.smd"
 	studio "newest_tube_short.smd"
 }
 
-$bodygroup "7" {
+$bodygroup "3" {
 	studio "newest_stock_extended.smd"
 	studio "newest_stock_fixed.smd"
 	studio "newest_stock_folded.smd"
 	blank
 }
 
-$bodygroup "7" {
+$bodygroup "4" {
 	blank
 	studio "rail_modern.smd"
 	studio "rail_classic.smd"
 }
 
-$bodygroup "8" {
+$bodygroup "5" {
 	studio "12ga.smd"
+	studio "12ga2.smd"
+	blank
 }
 
 $cdmaterials "models\weapons\arccw\ur_spas12"
@@ -96,6 +99,26 @@ $sequence "cycle" {
 	fadeout 0
 }
 
+$sequence "cycle2" {
+	"anims_new\cycle2.smd"
+	// "anims\cycle_iron.smd"
+	blend "sights" 0 1
+	fps 30
+	"ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0
+}
+
+$sequence "cycle_freeman" {
+	"anims_new\cycle_freeman.smd"
+	// "anims\cycle_iron.smd"
+	blend "sights" 0 1
+	fps 30
+	"ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0
+}
+
 $sequence "draw" "anims_new\draw.smd" {
 	fps 30
 	"ACT_VM_DRAW" 1
@@ -110,7 +133,13 @@ $sequence "deploy" "anims_new\equip_pump.smd" {
 	snap
 }
 
-$sequence "holster" "anims\holster.smd" {
+$sequence "holster" "anims_new\holster.smd" {
+	fps 30
+	"ACT_VM_HOLSTER" 1
+	snap
+}
+
+$sequence "holster2" "anims_new\holster2.smd" {
 	fps 30
 	"ACT_VM_HOLSTER" 1
 	snap
@@ -225,7 +254,7 @@ $bonemerge "ValveBiped.Bip01_R_Finger0"
 $bonemerge "ValveBiped.Bip01_R_Finger01"
 $bonemerge "ValveBiped.Bip01_R_Finger02"
 
-$collisionmodel "receiver.smd"
+$collisionmodel "newest_frame.smd"
 {
 	$mass 5
 	$inertia 1
