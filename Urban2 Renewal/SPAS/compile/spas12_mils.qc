@@ -34,6 +34,11 @@ $bodygroup "5" {
 	blank
 }
 
+$bodygroup "6" {
+	blank
+	studio "rail_pump.smd"
+}
+
 $cdmaterials "models\weapons\arccw\ur_spas12"
 $cdmaterials "models\weapons\arccw\ur_spas12_new"
 $cdmaterials "models\weapons\arccw\ud_common"
