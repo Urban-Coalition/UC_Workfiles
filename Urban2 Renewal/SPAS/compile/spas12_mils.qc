@@ -89,6 +89,13 @@ $sequence "fire_semi" "anims_new\fire_semi.smd" {
 	snap
 }
 
+$sequence "fire_freeman" "anims_new\fire_freeman.smd" {
+	blend "sights" 0 1
+	fps 30
+	"ACT_VM_PRIMARYATTACK" 1
+	snap
+}
+
 $sequence "cycle" {
 	"anims_new\cycle.smd"
 	// "anims\cycle_iron.smd"
@@ -111,6 +118,16 @@ $sequence "cycle2" {
 
 $sequence "cycle_freeman" {
 	"anims_new\cycle_freeman.smd"
+	// "anims\cycle_iron.smd"
+	blend "sights" 0 1
+	fps 30
+	"ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0
+}
+
+$sequence "cycle_freeman2" {
+	"anims_new\cycle_freeman2.smd"
 	// "anims\cycle_iron.smd"
 	blend "sights" 0 1
 	fps 30
