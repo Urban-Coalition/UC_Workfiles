@@ -223,18 +223,23 @@ $sequence "sgreload_finish" {
 
 
 $sequence "inspect_enter" {
-	"anims\spasins_enter"
-	fps 37
+	"anims_new\inspect_enter"
+	fps 30
 	// snap
 }
 $sequence "inspect_loop" {
-	"anims\spasins_loop"
-	fps 24
+	"anims_new\inspect_loop"
+	fps 30
 	// snap
 }
 $sequence "inspect_exit" {
-	"anims\spasins_exit"
-	fps 37
+	"anims_new\inspect_exit"
+	fps 30
+	// snap
+}
+$sequence "inspect_exit_empty" {
+	"anims_new\inspect_exit_empty"
+	fps 30
 	// snap
 }
 
