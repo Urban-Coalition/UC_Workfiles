@@ -128,7 +128,7 @@ $sequence "cycle_freeman" {
 	fps 30
 	"ACT_VM_IDLE" 1
 	fadein 0.2
-	fadeout 0
+	fadeout 0.1
 }
 
 $sequence "cycle_freeman2" {
@@ -138,7 +138,7 @@ $sequence "cycle_freeman2" {
 	fps 30
 	"ACT_VM_IDLE" 1
 	fadein 0.2
-	fadeout 0
+	fadeout 0.1
 }
 
 $sequence "draw" "anims_new\draw.smd" {
@@ -172,7 +172,8 @@ $sequence "sgreload_start" {
 	fps 30
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
-	snap
+	fadein 0.2
+	fadeout 0
 }
 
 $sequence "sgreload_start_empty" {
@@ -180,7 +181,8 @@ $sequence "sgreload_start_empty" {
 	fps 30
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
-	snap
+	fadein 0.2
+	fadeout 0
 }
 
 $sequence "sgreload_start_empty_alt" {
@@ -188,7 +190,8 @@ $sequence "sgreload_start_empty_alt" {
 	fps 30
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
-	snap
+	fadein 0.2
+	fadeout 0
 }
 
 $sequence "sgreload_start_empty_semi" {
@@ -196,7 +199,8 @@ $sequence "sgreload_start_empty_semi" {
 	fps 30
 	"ACT_VM_RELOAD" 1
 	blend "sights" 0 1
-	snap
+	fadein 0.2
+	fadeout 0
 }
 
 $sequence "sgreload_insert" {

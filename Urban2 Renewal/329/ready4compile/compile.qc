@@ -110,6 +110,14 @@ $sequence "draw" {
     snap
 }
 
+$sequence "deploy" {
+    "anims/deploy.smd"
+    "anims/deploy.smd"
+	blend "sights" 0 1
+    fps 60
+    snap
+}
+
 $sequence "draw_cocked" {
     "anims/draw_cocked.smd"
     "anims/draw_cocked.smd"
@@ -141,7 +149,7 @@ $sequence "cocking" {
     "anims/cocking.smd"
     "anims/cocking.smd"
 	blend "sights" 0 1
-    fadein 0.1
+    fadein 0.8
     fadeout 0.2
     fps 60
 }
