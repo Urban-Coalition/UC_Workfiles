@@ -160,25 +160,25 @@ $sequence "ready" {
 }
 
 
-$sequence "draw" "anims_howowoo\draw.smd" {
+$sequence "draw" "anims\draw.smd" {
 	fps 40
 	"ACT_VM_DRAW" 1
 	snap
 }
 
-$sequence "draw_empty" "anims_howowoo\draw_empty.smd" {
+$sequence "draw_empty" "anims\draw_empty.smd" {
 	fps 40
 	"ACT_VM_DRAW" 1
 	snap
 }
 
-$sequence "holster" "anims_howowoo\holster.smd" {
+$sequence "holster" "anims\holster.smd" {
 	fps 40
 	"ACT_VM_DRAW" 1
 	snap
 }
 
-$sequence "holster_empty" "anims_howowoo\holster_empty.smd" {
+$sequence "holster_empty" "anims\holster_empty.smd" {
 	fps 40
 	"ACT_VM_DRAW" 1
 	snap
