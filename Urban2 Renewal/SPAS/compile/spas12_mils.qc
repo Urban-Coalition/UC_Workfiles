@@ -128,7 +128,7 @@ $sequence "cycle_freeman" {
 	fps 30
 	"ACT_VM_IDLE" 1
 	fadein 0.2
-	fadeout 0.1
+	fadeout 0.4
 }
 
 $sequence "cycle_freeman2" {
@@ -138,7 +138,7 @@ $sequence "cycle_freeman2" {
 	fps 30
 	"ACT_VM_IDLE" 1
 	fadein 0.2
-	fadeout 0.1
+	fadeout 0.4
 }
 
 $sequence "draw" "anims_new\draw.smd" {

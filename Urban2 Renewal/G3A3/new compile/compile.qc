@@ -318,18 +318,18 @@ $sequence "fire_03" {
 
 
 $sequence "inspect_enter" {
-	"anims\g3inspect_enter"
-	fps 37
+	"anims\inspect_in"
+	fps 30
 	// snap
 }
 $sequence "inspect_loop" {
-	"anims\g3inspect_loop"
-	fps 24
+	"anims\inspect_loop"
+	fps 30
 	// snap
 }
 $sequence "inspect_exit" {
-	"anims\g3inspect_exit"
-	fps 37
+	"anims\inspect_out"
+	fps 30
 	// snap
 }
 
