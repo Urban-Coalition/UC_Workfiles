@@ -39,6 +39,11 @@ $bodygroup "6" {
 	studio "rail_pump.smd"
 }
 
+$bodygroup "6" {
+	studio "12ga_extra.smd"
+	blank
+}
+
 $cdmaterials "models\weapons\arccw\ur_spas12"
 $cdmaterials "models\weapons\arccw\ur_spas12_new"
 $cdmaterials "models\weapons\arccw\ud_common"
@@ -88,6 +93,13 @@ $sequence "fire_pump" "anims_new\fire_pump.smd" {
 }
 
 $sequence "fire_semi" "anims_new\fire_semi.smd" {
+	blend "sights" 0 1
+	fps 30
+	"ACT_VM_PRIMARYATTACK" 1
+	snap
+}
+
+$sequence "fire_semi_empty" "anims_new\fire_semi_empty.smd" {
 	blend "sights" 0 1
 	fps 30
 	"ACT_VM_PRIMARYATTACK" 1
@@ -239,6 +251,11 @@ $sequence "inspect_exit" {
 }
 $sequence "inspect_exit_empty" {
 	"anims_new\inspect_exit_empty"
+	fps 30
+	// snap
+}
+$sequence "inspect_exit_pump_empty" {
+	"anims_new\inspect_exit_pump_emp"
 	fps 30
 	// snap
 }
