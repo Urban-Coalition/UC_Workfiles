@@ -44,6 +44,30 @@ $sequence "idle" "anims\idle.smd" {
 	node "Ready"
 }
 
+$sequence "draw" "anims\draw.smd" {
+	fps 30
+	"ACT_VM_DRAW" 1
+	snap
+	{ event 5004 0 "Start" }
+	{ event 5004 15 "StockHitsShoulder" }
+}
+
+$sequence "inspect_enter" {
+	"anims\inspect_enter"
+	fps 30
+	// snap
+}
+$sequence "inspect_loop" {
+	"anims\inspect_idle"
+	fps 30
+	// snap
+}
+$sequence "inspect_exit" {
+	"anims\inspect_back_to_idle"
+	fps 30
+	// snap
+}
+
 
 $bonemerge "ValveBiped.Bip01_Spine4"
 $bonemerge "ValveBiped.Bip01_L_Clavicle"
