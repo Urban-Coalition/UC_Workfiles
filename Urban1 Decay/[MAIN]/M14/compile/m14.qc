@@ -2,6 +2,7 @@ $modelname "weapons\arccw\c_ud_m14.mdl"
  
 $bodygroup "studio" {
 	studio "m14.smd"
+	blank
 }
 
 $bodygroup "1" {
@@ -12,10 +13,13 @@ $bodygroup "1" {
 $bodygroup "2" {
 	studio "m14_barrel.smd"
 	studio "m14_short_barrel.smd"
+	blank
 }
 
 $bodygroup "3" {
 	studio "m14_mag.smd"
+	studio "m14_mag_10.smd"
+	blank
 }
 
 $cdmaterials "models\weapons\arccw\ud_m14"
@@ -42,6 +46,46 @@ $sequence "idle" "anims\idle.smd" {
 	loop
 	snap
 	node "Ready"
+}
+
+$sequence "fire" "anims\fire.smd" {
+	fps 30
+	snap
+}
+
+$sequence "wet" "anims\wet.smd" {
+	fps 30
+	snap
+}
+
+$sequence "wet_10" "anims\wet_10.smd" {
+	fps 30
+	snap
+}
+
+$sequence "dry" "anims\dry.smd" {
+	fps 30
+	snap
+}
+
+$sequence "dry_10" "anims\dry_10.smd" {
+	fps 30
+	snap
+}
+
+$sequence "garand" "anims\garand.smd" {
+	fps 30
+	snap
+}
+
+$sequence "garand_10" "anims\garand_10.smd" {
+	fps 30
+	snap
+}
+
+$sequence "deploy" "anims\deploy.smd" {
+	fps 30
+	snap
 }
 
 $sequence "draw" "anims\draw.smd" {
