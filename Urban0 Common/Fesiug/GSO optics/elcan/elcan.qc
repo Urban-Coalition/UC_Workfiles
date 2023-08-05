@@ -8,7 +8,8 @@ $bodygroup "body"
 }
 $bodygroup "hsp"
 {
-	studio "optic_hsp.smd"
+	blank
+	// studio "optic_hsp.smd"
 }
 
 
@@ -21,13 +22,11 @@ $illumposition 0 0 0
 $cdmaterials "models/uc/attachments/gso/"
 
 $attachment "holosight" "holosight" 0 0 0 rotate 0 0 0
+$attachment "calc" "calc" 0 0 0 rotate 0 0 0
 
 
 $sequence "idle" {
-	"elcan_anims\idle.smd"
-	fadein 0.2
-	fadeout 0.2
-	fps 30
+	"optic.smd"
 }
 
 $collisionmodel "optic.smd"
