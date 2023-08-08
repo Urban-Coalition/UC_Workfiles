@@ -163,7 +163,7 @@ $sectionframes 30 32
 $poseparameter "sights" 0 1 loop 0
 
 $sequence "WM" {
-	"c_ud_glock_anims\WM.smd"
+	"glock_frame.smd"
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -396,12 +396,7 @@ $sequence "reload_empty_100" {
 	fps 30
 }
 
-$collisionmodel "c_ud_glock_physics.smd"
+$collisionmodel "glock_frame.smd"
 {
-	$mass 1
-	$inertia 1
-	$damping 0
-	$rotdamping 0
-	$rootbone " "
-
+	$mass 10
 }
