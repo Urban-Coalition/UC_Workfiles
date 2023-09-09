@@ -5,10 +5,21 @@ $modelname "weapons/arccw/atts/uc_gso_hamr.mdl"
 $bodygroup "body"
 {
 	studio "optic.smd"
+	blank
 }
-$bodygroup "hsp"
+$bodygroup "lens"
 {
-	studio "optic_hsp_2.smd"
+	studio "lens.smd"
+	blank
+}
+$bodygroup "lens_reflex"
+{
+	studio "lens_reflex.smd"
+	blank
+}
+$bodygroup "supershit"
+{
+	studio "supershit.smd"
 	blank
 }
 
@@ -23,13 +34,11 @@ $cdmaterials "models/uc/attachments/gso/"
 
 $attachment "scope" "scope" 0 0 0 rotate 0 0 0
 $attachment "holosight" "holosight" 0 0 0 rotate 0 0 0
+$attachment "calc" "calc" 0 0 0 rotate 0 0 0
 
 
 $sequence "idle" {
-	"hamr_anims\idle.smd"
-	fadein 0.2
-	fadeout 0.2
-	fps 30
+	"optic.smd"
 }
 
 $collisionmodel "optic.smd"

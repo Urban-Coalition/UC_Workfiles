@@ -3,10 +3,16 @@ $modelname "weapons/arccw/atts/ud_acog.mdl"
 $bodygroup "body"
 {
 	studio "acog.smd"
+	blank
 }
 $bodygroup "hsp"
 {
 	studio "hsp.smd"
+	blank
+}
+$bodygroup "shitpanel"
+{
+	studio "shitpanel.smd"
 	blank
 }
 
@@ -18,20 +24,17 @@ $contents "solid"
 $illumposition 0 0 0
 
 $cdmaterials "models/UC/attachments/"
+$cdmaterials "models/uc/attachments/gso/"
 
 $attachment "holosight" "holosight" 0.00 0.00 0.00 rotate -0 0 0
 $attachment "calc" "calc" 0.00 0.00 0.00 rotate -0 0 0
 
 
 $sequence "idle" {
-	"acog.smd"
+	"anims/Action.smd"
 }
 
 $collisionmodel "acog.smd"
 {
-	$mass 1
-	$inertia 1
-	$damping 0
-	$rotdamping 0
-	$rootbone "root"
+	$mass 2
 }

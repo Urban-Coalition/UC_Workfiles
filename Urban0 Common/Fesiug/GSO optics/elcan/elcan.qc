@@ -5,11 +5,12 @@ $modelname "weapons/arccw/atts/uc_gso_elcan.mdl"
 $bodygroup "body"
 {
 	studio "optic.smd"
+	blank
 }
 $bodygroup "hsp"
 {
+	studio "lens.smd"
 	blank
-	// studio "optic_hsp.smd"
 }
 
 

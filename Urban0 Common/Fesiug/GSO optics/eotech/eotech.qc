@@ -5,6 +5,7 @@ $modelname "weapons/arccw/atts/uc_gso_eotech.mdl"
 $bodygroup "body"
 {
 	studio "optic.smd"
+	blank
 }
 $bodygroup "hsp"
 {
