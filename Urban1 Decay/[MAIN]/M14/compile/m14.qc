@@ -53,6 +53,16 @@ $sequence "fire" "anims\fire.smd" {
 	snap
 }
 
+$sequence "fire_ads" "anims\fire_ads.smd" {
+	fps 30
+	snap
+}
+
+$sequence "fire_empty" "anims\fire_empty.smd" {
+	fps 30
+	snap
+}
+
 $sequence "wet" "anims\wet.smd" {
 	fps 30
 	snap
