@@ -147,7 +147,7 @@ $sequence "holster_cocked" {
 
 $sequence "cocking" {
     "anims/cocking.smd"
-    "anims/cocking.smd"
+    "anims/cocking_sights.smd"
 	blend "sights" 0 1
     fadein 0.8
     fadeout 0.2

@@ -5,6 +5,12 @@ $modelname "weapons/arccw/atts/uc_trijicon_tars.mdl"
 $bodygroup "body"
 {
 	studio "trijitars.smd"
+	blank
+}
+$bodygroup "lens"
+{
+	studio "trijitars_lens.smd"
+	blank
 }
 // $bodygroup "hsp"
 // {
