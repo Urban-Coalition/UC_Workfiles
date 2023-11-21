@@ -13,7 +13,7 @@ $cdmaterials "models\weapons\arccw\uc_tec9"
 $cdmaterials "models\weapons\arccw\ud_common"
 
 
-$attachment "1" "flashbone" 0 0 0 rotate 180 90 -90  
+$attachment "1" "flashbone" 0 0 0 rotate 180 90 0  
 $attachment "2" "brassbone" 0 0 0 rotate 50 180 0
 $attachment "3" "camera" 0 0 0 rotate -90 0 0
  
@@ -104,7 +104,7 @@ $sequence "fire_iron" {
 // }
 
 $sequence "reload" {
-	"anims\reload.smd" 
+	"anims\reload_v2.smd" 
 	blend "sights" 0 1
 	fps 30
 	"ACT_VM_RELOAD" 1
