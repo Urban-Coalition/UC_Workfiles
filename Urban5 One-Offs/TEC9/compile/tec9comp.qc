@@ -117,6 +117,117 @@ $sequence "reload_empty" {
 	"ACT_VM_RELOAD" 1
 }
 
+// open-bolt animations
+
+$sequence "idle_ob"{
+	"anims\idle_ob.smd" 
+	fps 30
+	"ACT_VM_IDLE" 1
+ 	blend "sights" 0 1
+	loop
+	snap
+	node "Ready"
+}
+
+$sequence "holster_ob"{
+	"anims\holster_ob.smd" 
+	fps 30
+	"ACT_VM_IDLE" 1
+ 	blend "sights" 0 1
+	node "Ready"
+}
+
+$sequence "draw_ob"{
+	"anims\draw_ob.smd" 
+	fps 30
+	"ACT_VM_IDLE" 1
+ 	blend "sights" 0 1
+	node "Ready"
+}
+
+$sequence "fire_ob" {
+	"anims\fire_ob.smd"
+	fps 30
+	"ACT_VM_PRIMARYATTACK" 1
+ 	blend "sights" 0 1
+	fadein 0.02
+	fadeout 0.0
+	{ event 5001 0 "1" }
+}
+
+$sequence "fire_empty_ob" {
+	"anims\fire_empty_ob.smd"
+	fps 30
+	"ACT_VM_PRIMARYATTACK" 1
+ 	blend "sights" 0 1
+	fadein 0.02
+	fadeout 0.0
+	{ event 5001 0 "1" }
+}
+
+$sequence "fire_iron_ob" {
+	"anims\fire_irons_ob.smd"
+	fps 30
+	"ACT_VM_PRIMARYATTACK" 1
+ 	blend "sights" 0 1
+	fadein 0.02
+	fadeout 0.0
+	{ event 5001 0 "1" }
+}
+
+$sequence "fire_empty_iron_ob" {
+	"anims\fire_empty_irons_ob.smd"
+	fps 30
+	"ACT_VM_PRIMARYATTACK" 1
+ 	blend "sights" 0 1
+	fadein 0.02
+	fadeout 0.0
+	{ event 5001 0 "1" }
+}
+
+//$sequence "fire_stock" {
+	//"anims\fire_stock.smd"
+	//fps 30
+	//"ACT_VM_PRIMARYATTACK" 1
+ 	//blend "sights" 0 1
+	//fadein 0.02
+	//fadeout 0.0
+	//{ event 5001 0 "1" }
+//}
+
+//$sequence "fire_empty_stock" {
+	//"anims\fire_empty_stock.smd"
+	//fps 30
+	//"ACT_VM_PRIMARYATTACK" 1
+ 	//blend "sights" 0 1
+	//fadein 0.02
+	//fadeout 0.0
+	//{ event 5001 0 "1" }
+//}
+
+// $sequence "ready" {
+// 	"anims\ready.smd"
+//  blend "sights" 0 1
+// 	fps 60
+// 	"ACT_VM_DRAW" 1
+// 	snap
+// }
+
+$sequence "reload_ob" {
+	"anims\reload_v2_ob.smd" 
+	blend "sights" 0 1
+	fps 30
+	"ACT_VM_RELOAD" 1
+}
+
+$sequence "reload_empty_ob" {
+	"anims\reload_dry_ob.smd"
+	blend "sights" 0 1
+	fps 30
+	"ACT_VM_RELOAD" 1
+}
+
+
 
 $bonemerge "ValveBiped.Bip01_Spine4"
 $bonemerge "ValveBiped.Bip01_L_Clavicle"
