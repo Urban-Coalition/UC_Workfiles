@@ -1,0 +1,7 @@
+don't touch rig (bones weights so on) otherwise I'll be confused and struggled
+
+please, if you wanna edit existing anims, keep old anim, just copy action you want to edit and give it new name
+
+you gotta export everything and create .qc here at some point
+
+
