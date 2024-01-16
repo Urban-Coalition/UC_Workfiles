@@ -215,8 +215,24 @@ $sequence "beltfed_fire01" {
 	snap
 }
 
+$sequence "beltfed_fire02" {
+	"anims/beltfed_fire02.smd"
+	fadein 0.025
+	fadeout 0.025
+	fps 70
+	snap
+}
+
 $sequence "beltfed_fire01_ads" {
 	"anims/beltfed_fire01_ads.smd"
+	fadein 0.025
+	fadeout 0.025
+	fps 70
+	snap
+}
+
+$sequence "beltfed_fire02_ads" {
+	"anims/beltfed_fire02_ads.smd"
 	fadein 0.025
 	fadeout 0.025
 	fps 70
@@ -244,6 +260,38 @@ $sequence "beltfed_draw" {
 	fadein 0.1
 	fadeout 0.1
 	fps 65
+	snap
+}
+
+$sequence "beltfed_draw_empty" {
+	"anims/beltfed_draw_empty.smd"
+	fadein 0.1
+	fadeout 0.1
+	fps 65
+	snap
+}
+
+$sequence "beltfed_holster" {
+	"anims/beltfed_holster.smd"
+	fadein 0.1
+	fadeout 0.1
+	fps 65
+	snap
+}
+
+$sequence "beltfed_holster_empty" {
+	"anims/beltfed_holster_empty.smd"
+	fadein 0.1
+	fadeout 0.1
+	fps 65
+	snap
+}
+
+$sequence "beltfed_reload" {
+	"anims/beltfed_reload.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 70
 	snap
 }
 
